@@ -10,5 +10,8 @@
         // Test cherry pick test eliyor. 
         // Test cherry pick test eliyor. 
 
+
+        public int Id { get; set; } 
+
     }
 }
