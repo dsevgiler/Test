@@ -6,7 +6,8 @@ namespace Test.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        // test geli�tirmeleri 
+        // test geliþtirmeleri 
+        // serverda ayrı bir geliştirme yapıldı. Locale çekilecek
         private static readonly string[] Summaries = new[]
         {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
