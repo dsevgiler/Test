@@ -9,7 +9,7 @@ namespace Test.Context
 
         public DnzContext(DbContextOptions<DnzContext> options) : base(options)
         {
-
+            // yeni tablo eklendi. 
         }
 
     }

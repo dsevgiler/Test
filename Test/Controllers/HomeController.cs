@@ -26,5 +26,15 @@ namespace Test.Controllers
 
             return Ok(result);
         }
+
+        [HttpGet]
+        public IActionResult deneme()
+        {
+            var result = _dnzContext.Products.FromSqlRaw("select * from product");
+
+            return Ok(result);
+        }
+
+
     }
 }
