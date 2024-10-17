@@ -1,0 +1,32 @@
+﻿@model List<TestCore8._0.Dtos.productcatDto>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <td>Id</td>
+                <td>Adı</td>
+                <td>Fiyat</td>
+                <td>Kategori</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.ToList())
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Price</td>
+                    <td>@item.categoryname</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
