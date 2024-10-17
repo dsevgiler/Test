@@ -28,8 +28,9 @@ namespace TestCore8._0.Controllers
             return View(); 
         }
 
-        public IActionResult Iletisim()
-        { 
+        public IActionResult Iletisim(string i)
+        {
+            string s = "";  
             return View();
         }
 
