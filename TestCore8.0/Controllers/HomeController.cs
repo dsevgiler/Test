@@ -33,5 +33,10 @@ namespace TestCore8._0.Controllers
             return View();
         }
 
+        public IActionResult Urunlerimiz()
+        {
+            return View();
+        }
+
     }
 }
