@@ -21,7 +21,13 @@ namespace Test.Controllers
             var result = _dnzContext.Products.FromSqlRaw("select * from product");
             // result eklendi. 
 
+            // result eklendi. 
+            // daldkaslşkdşlsakd
+
             return Ok(result);
         }
+
+
+
     }
 }

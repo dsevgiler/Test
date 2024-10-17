@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{F72C7592-733D-4BF5-97DF-06F87E77B2D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElasticSearch.API", "ElasticSearch.API\ElasticSearch.API.csproj", "{B01D5F3C-09C6-4B46-AAD6-C06C1EF429E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCore8.0", "TestCore8.0\TestCore8.0.csproj", "{530D38BF-EDE1-410B-86C0-5937ED57554C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F72C7592-733D-4BF5-97DF-06F87E77B2D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F72C7592-733D-4BF5-97DF-06F87E77B2D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F72C7592-733D-4BF5-97DF-06F87E77B2D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F72C7592-733D-4BF5-97DF-06F87E77B2D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B01D5F3C-09C6-4B46-AAD6-C06C1EF429E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B01D5F3C-09C6-4B46-AAD6-C06C1EF429E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B01D5F3C-09C6-4B46-AAD6-C06C1EF429E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B01D5F3C-09C6-4B46-AAD6-C06C1EF429E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{530D38BF-EDE1-410B-86C0-5937ED57554C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{530D38BF-EDE1-410B-86C0-5937ED57554C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{530D38BF-EDE1-410B-86C0-5937ED57554C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{530D38BF-EDE1-410B-86C0-5937ED57554C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
