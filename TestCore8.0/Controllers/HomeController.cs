@@ -23,14 +23,13 @@ namespace TestCore8._0.Controllers
             return View(res);
         }
 
-        public IActionResult Hakkinda(string h)
+        public IActionResult Hakkinda()
         { 
             return View(); 
         }
 
-        public IActionResult Iletisim(string i)
-        {
-            string s = "";  
+        public IActionResult Iletisim()
+        { 
             return View();
         }
 
