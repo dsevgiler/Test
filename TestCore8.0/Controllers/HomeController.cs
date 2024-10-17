@@ -22,5 +22,18 @@ namespace TestCore8._0.Controllers
 
             return View(res);
         }
+
+        public IActionResult Hakkinda()
+        {
+            string s = "Deniz";
+
+            return View(); 
+        }
+
+        public IActionResult Iletisim()
+        { 
+            return View();
+        }
+
     }
 }
